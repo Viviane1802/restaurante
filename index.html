@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Meu CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+
+    <!--titulo-->
+    <title> Restaurante e Pizzaria </title>
+
+</head>
+
+<body>
+
+    <!-- Início de Vídeo -->
+    <div>
+        <video class="video_bg" preload="auto" autoplay="true" loop="loop" muted="muted">
+           <source src="videos/tomate.mp4" type="video/mp4">
+        </video>
+    </div>
+
+</body>
+
+<!-- Fim de Vídeo -->
+
+<!-- NavBar - Bootstrap -->
+<nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+            <div class="container">
+                <!--Marca-->
+                <a class="navbar-brand" href="index.html">
+                    <img src="imagens/mundo .png" alt="Marca Mundi" width="80">
+                </a>>
+            </div>
+            <!-- Fim da Marca -->
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+
+
+                <!-- Primeiro Dropdown ( botão único - Bootstrap )-->
+                <div class="dropdown me-5 ms-5">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Restaurante
+                </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Cardápio</a></li>
+                        <li><a class="dropdown-item" href="#"> Promoções </a></li>
+                        <li><a class="dropdown-item" href="#"> Reservas </a></li>
+                    </ul>
+                </div>
+
+                <!-- Segundo Dropdown ( botão único - Bootstrap )-->
+
+                <div class="btn-group me-5 ms-2">
+                    <button type="button" class="btn btn-danger">Pizzaria</button>
+                    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+               <span class="visually-hidden">Toggle Dropdown</span>
+               </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Sabores</a></li>
+                        <li><a class="dropdown-item" href="#">Acréscimo</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Reservas</a></li>
+                    </ul>
+                </div>
+
+        </div>
+    </div>
+</nav>
+
+<!--Fim do NavBar - Bootstrap-->
+
+
+<!-- Alerta Restaurante ( Bootstrap - conteúdo adicional )-->
+<div class="alert alert-light mt-5 mb-5 p-5" role="alert">
+
+    <h1 class="alert-heading"> Restaurante Mundão Sem Porteira </h1>
+
+    <h5>
+        Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content. Aww yeah, you successfully read this important alert message.
+        This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.
+    </h5>
+
+    <hr>
+    <p class="mb-0 text-center"> Ambiente familiar • Comida Gostosa • Sucos especiais • Saborosos quitutes • Cafezinho à vontade • Restaurante e Pizzaria
+    </p>
+</div>
+
+<!-- Imagens do Restaurante -->
+<div class="d-flex flex-wrap container">
+    <img class="imagens" src="imagens/comida_01 .jpg" class="img-thumbnail" alt="comida_01">
+    <img class="imagens" src="imagens/comida_02 .jpg" class="img-thumbnail" alt="comida_02">
+    <img class="imagens" src="imagens/comida_03 .jpg" class="img-thumbnail" alt="comida_03">
+    <img class="imagens" src="imagens/comida_04 .jpg" class="img-thumbnail" alt="comida_04">
+    <img class="imagens" src="imagens/comida_05 .jpg" class="img-thumbnail" alt="comida_05">
+    <img class="imagens" src="imagens/comida_06 (1).jpg" class="img-thumbnail" alt="comida_06">
+</div>
+
+<!-- Fim das Imagens do Restaurante -->
+
+
+<!-- Pizzaria (Alerta - Bootstrap)-->
+<div class="container mt-5 mb-5">
+
+    <div class="alert alert-light" role="alert">
+        <h1 class="alert-heading"> As melhores Pizzas de Belô! </h1>
+        <h5> Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content. Aww yeah, you successfully read this important alert
+            message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.
+        </h5>
+    </div>
+
+</div>
+
+<!-- Fim do Alerta - Pizzaria -->
+
+
+<!-- Cardápio (Mesas - Bootstrap)-->
+<div class="container mb-5"> </div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col"> Nº </th>
+            <th scope="col"> Pizza </th>
+            <th scope="col"> Ingrediente Principal</th>
+            <th scope="col"> Valor </th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <th scope="row">1</th>
+            <td>Mineira</td>
+            <td>Linguiça Calabresa</td>
+            <td> R$28,00 </td>
+        </tr>
+
+        <tr>
+            <th scope="row">2</th>
+            <td> Queijinho </td>
+            <td> Queijo mineiro </td>
+            <td> R$29,50 </td>
+        </tr>
+
+        <tr>
+            <th scope="row">3</th>
+            <td> Franguinho </td>
+            <td> Frango caipira </td>
+            <td> R$32,00 </td>
+        </tr>
+
+        <tr>
+            <th scope="row">4</th>
+            <td colspan="2">Demais Sabores </td>
+            <td> R$23,00 </td>
+        </tr>
+
+    </tbody>
+</table>
+</div>
+
+<!-- Imagens da Pizzaria -->
+<div class="d-flex flex-wrap container mt-5">
+
+    <img class="imagens" src="imagens/pizza_01.jpg" class="img-thumbnail" alt="Pizza 01">
+    <img class="imagens" src="imagens/pizza_02.jpg" class="img-thumbnail" alt="Pizza 02">
+    <img class="imagens" src="imagens/pizza_03.jpg" class="img-thumbnail" alt="Pizza 03">
+    <img class="imagens" src="imagens/pizza_04.jpg" class="img-thumbnail" alt="Pizza 04">
+    <img class="imagens" src="imagens/pizza_05.jpg" class="img-thumbnail" alt="Pizza 05">
+    <img class="imagens" src="imagens/pizza_06.jpg" class="img-thumbnail" alt="Pizza 06">
+
+</div>
+<!-- Fim das Imagens da Pizzaria -->
+
+<!-- Reservas (Alerta - Bootstrap)-->
+<div>
+
+    <div class="container-fluid p-5 mt-5 text-center alert alert-dark" role="alert">
+        <h1 class="alert-heading">Reserve o seu cantinho! </h1>
+        <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content. Aww yeah, you successfully read this important alert
+            message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.
+        </p>
+        <hr>
+        <button type="button" class="btn btn-dark">Reservas</button>
+    </div>
+
+</div>
+<!-- Fim das Reservas (Alerta - Bootstrap)-->
+
+<!-- Imagem Final (responsiva - Bootstrap) -->
+<div>
+    <img src="imagens/tomates.jpg" class="tomates" alt=" Imagem de Tomates">
+</div>
+
+<!-- Fim da Imagem Final ( responsiva - Bootstrap) -->
+
+<!-- Rodapé -->
+<footer class="rodape container-fluid bg-dark text-center">
+    2021 | Todos direitos reservados | Webdesigner: VivianeCamile
+</footer>
+<!-- Fim do Rodapé -->
+
+
+
+<!-- Java Script Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
